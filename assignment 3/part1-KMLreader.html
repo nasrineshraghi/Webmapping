@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+
+
+<html>
+  <head>
+
+
+
+    <title>
+      Nasrin E.Ivari
+  </title>
+  
+  <style type="text/css">
+  .auto-style1 {
+    text-align: center;
+  }
+  .auto-style2 {
+    text-decoration: underline;
+  }
+  .auto-style3 {
+    font-size: medium;
+  }
+  </style>
+
+
+
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>KML Layers</title>
+    <style>
+ 
+      #map {
+        height: 100%;
+      }
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+
+    <h1 class="auto-style1">Nasrin Eshraghi Ivari</h1>
+    <h2 style="color:black;" class="auto-style1">KML VISUALIZER</h2>
+
+    
+    <div id="map"></div>
+    <script>
+
+      function initMap() {
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 13,
+          center: {lat:  46.4542, lng:-71.1027}
+        });
+
+        var ctaLayer = new google.maps.KmlLayer({
+          url: 'http://atlas.gge.unb.ca/gge5403/nasrin/assignment2.kml',
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkZBB9EMH0fzOFi0SgT993k6bZqbzdvio&callback=initMap">
+    </script>
+  </body>
+</html>
