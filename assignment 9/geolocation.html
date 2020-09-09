@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Geolocation</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+  <button onclick="getLocation()">Click to get the coordinates and distance</button>
+
+<p id="demo"></p>
+
+<script>
+var x = document.getElementById("demo");
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else {
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position) {
+
+  var lat1 = position.coords.latitude;
+  var lon1 = position.coords.longitude ;
+
+  x.innerHTML = "Latitude: " + position.coords.latitude +
+  "<br>Longitude: " + position.coords.longitude + "<br>Distance from Southpole in Km is : " + getDistanceFromLatLonInKm(lat1,lon1)+ "<br>Distance from Northpole in Km is : " + DistanceFromLatLonInKm(lat1,lon1);
+}
+function getDistanceFromLatLonInKm(lat1,lon1) {
+	var lat2 = -90;
+	var lon2 = 0;
+  var R = 6371; // Radius of the earth in km
+  var dLat = deg2rad(lat2-lat1);  // deg2rad below
+  var dLon = deg2rad(lon2-lon1);
+  var a =
+    Math.sin(dLat/2) * Math.sin(dLat/2) +
+    Math.cos(deg2rad(lat1)) * Math.cos(deg2rad(lat2)) *
+    Math.sin(dLon/2) * Math.sin(dLon/2)
+    ;
+  var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+  var d = R * c; // Distance in km
+
+  return d;
+}
+function DistanceFromLatLonInKm(lat1,lon1) {
+	var lat2 = 90;
+	var lon2 = 135;
+  var R = 6371; // Radius of the earth in km
+  var dLat = deg2rad(lat2-lat1);  // deg2rad below
+  var dLon = deg2rad(lon2-lon1);
+  var a =
+    Math.sin(dLat/2) * Math.sin(dLat/2) +
+    Math.cos(deg2rad(lat1)) * Math.cos(deg2rad(lat2)) *
+    Math.sin(dLon/2) * Math.sin(dLon/2)
+    ;
+  var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+  var d = R * c; // Distance in km
+
+  return d;
+}
+
+function deg2rad(deg) {
+  return deg * (Math.PI/180)
+}
+</script>
+    <div id="map"></div>
+    <script>
+      // Note: This example requires that you consent to location sharing when
+      // prompted by your browser. If you see the error "The Geolocation service
+      // failed.", it means you probably did not give permission for the browser to
+      // locate you.
+	  var x = document.getElementById("demo");
+
+
+      var map, infoWindow;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: -34.397, lng: 150.644},
+          zoom: 6
+        });
+        infoWindow = new google.maps.InfoWindow;
+
+        // Try HTML5 geolocation.
+        if (navigator.geolocation) {
+          navigator.geolocation.getCurrentPosition(function(position) {
+            var pos = {
+
+              lat: position.coords.latitude,
+              lng: position.coords.longitude
+
+
+			}
+			infoWindow.setPosition(pos);
+           infoWindow.setContent('My Location.');
+            infoWindow.open(map);
+            map.setCenter(pos);
+			var pos1= {
+
+             center: {lat: position.coords.latitude, lng: position.coords.longitude},
+          radius: 2714856
+			};
+
+			for (var city in pos1) {
+          // Add the circle for this city to the map.
+          var cityCircle = new google.maps.Circle({
+            strokeColor: '#grey',
+            strokeOpacity: 0.8,
+            strokeWeight: 2,
+            fillColor: '#FF0000',
+            fillOpacity: 0.35,
+            map: map,
+            center: pos1.center,
+            radius: Math.sqrt(pos1.radius) * 100,
+
+          });
+        }
+		for (var city in pos1) {
+          // Add the circle for this city to the map.
+          var cityCircle = new google.maps.Circle({
+            strokeColor: 'grey',
+            strokeOpacity: 0.8,
+            strokeWeight: 2,
+            fillColor: '#FF0000',
+            fillOpacity: 0.35,
+            map: map,
+            center: pos1.center,
+            radius: Math.sqrt(pos1.raduis) * 20,
+
+          });
+        }
+          }, function() {
+            handleLocationError(true, infoWindow, map.getCenter());
+          });
+        } else {
+          // Browser doesn't support Geolocation
+          handleLocationError(false, infoWindow, map.getCenter());
+        }
+
+      }
+
+      function handleLocationError(browserHasGeolocation, infoWindow, pos) {
+        infoWindow.setPosition(pos);
+        infoWindow.setContent(browserHasGeolocation ?
+                              'Error: The Geolocation service failed.' :
+                              'Error: Your browser doesn\'t support geolocation.');
+        infoWindow.open(map);
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAySG1NtPtJESXuMgJQo7WsRHxY-5VDuYk&callback=initMap">
+    </script>
+  </body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		button{
+			  background-color: blue; 
+			  border: none;
+			  color: white;
+			  padding: 15px 32px;
+			  text-align: center;
+			  text-decoration: none;
+			  display: inline-block;
+			  font-size: 16px;
+			  margin: 4px 2px;
+			  cursor: pointer;
+		}	
+		
+	</style>
+	<title></title>
+</head>
+<body>
+
+
+
+<p><center>This App fetches the current location of the device displays in on google map and reports spherical distance from north and south poles</p>
+
+<button onclick="getLocation()">Click to get your current location cordinates</button>
+
+<p id="demo"></p>
+
+<div id="map"></div></center>
+
+<script>
+var x = document.getElementById("demo");
+var map= document.getElementById("map");
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else {
+    x.innerHTML = "Sorry ! -> Geolocation is not supported!";
+  }
+}
+function deg2rad(degree){
+		rad = degree*(Math.PI/180);
+		return rad;
+}
+function showPosition(position) {
+
+  var latitude= position.coords.latitude;
+  var longitude= position.coords.longitude;
+  x.innerHTML = "Your lattitude is: " + position.coords.latitude + 
+  "<br>Your Longitude is: " + position.coords.longitude+ "<br> Distance from north pole: "+calculateDistanceNorthPole(latitude,longitude)+" km<br> spherical distance from south: "+calculateDistanceSouthPole(latitude,longitude)+" km"; 
+  var src= "https://maps.googleapis.com/maps/api/staticmap?center="+latitude+","+longitude+"&zoom=16&size=800x800&key=AIzaSyAySG1NtPtJESXuMgJQo7WsRHxY-5VDuYk"
+  map.innerHTML = "<img src="+src+">";
+
+}
+function calculateDistanceNorthPole(latitude,longitude){
+//npole lat = 90,long = 0,R = 6371;
+	var a = Math.pow(Math.sin((deg2rad(90-latitude))/2),2)+ Math.cos(deg2rad(latitude)) * Math.cos(deg2rad(90)) * Math.sin((deg2rad(0-longitude))/2) * Math.sin((deg2rad(0-longitude))/2);
+    var c = 2 * Math.atan2(Math.sqrt(a),Math.sqrt(1-a));
+    var d = Math.round(6371*c,3);
+	return d	
+}
+function calculateDistanceSouthPole(latitude,longitude){
+//npole lat = -90,long = 0,R = 6371;
+	var a = Math.pow(Math.sin((deg2rad(-90-latitude))/2),2)+ Math.cos(deg2rad(latitude)) * Math.cos(deg2rad(90)) * Math.sin((deg2rad(0-longitude))/2) * Math.sin((deg2rad(0-longitude))/2);
+    var c = 2 * Math.atan2(Math.sqrt(a),Math.sqrt(1-a));
+    var d = Math.round(6371*c,3);
+	return d	
+}
+//Circle around the location
+<!--
+//var mylocation = {
+//center: {lat: 45.946841299999996, lng: -66.64138539999999},
+    //      radius: 1000};
+//for (var val in mylocation) {
+          // Add the circle for this city to the map.
+       //   var cityCircle = new google.maps.Circle({
+         //   strokeColor: '#FF0000',
+          //  strokeOpacity: 0.8,
+          //  strokeWeight: 2,
+          //  fillColor: '#FF0000',
+          //  fillOpacity: 0.35,
+          //  map: map,
+          //  center: mylocation.center,
+          //  radius: Math.sqrt(mylocation.radius) * 100
+         // });}
+		  -->
+</script>
+</body>
+</html>

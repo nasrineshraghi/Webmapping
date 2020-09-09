@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		button{
+			  background-color: green; 
+			  border: 10 px lime;
+			  color: white;
+			  padding: 15px 32px;
+			  text-align: center;
+			  text-decoration: none;
+			  display: inline-block;
+			  font-size: 18px;
+			  margin: 4px 2px;
+			  cursor: pointer;
+		}	
+		
+	.auto-style1 {
+		text-align: left;
+		margin-left: 280px;
+	}
+	.auto-style2 {
+		text-align: left;
+	}
+	.auto-style3 {
+		font-size: x-large;
+	}
+		
+	.auto-style4 {
+		font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	}
+		
+	</style>
+	<title></title>
+</head>
+<body>
+
+
+
+<p class="auto-style1">
+<strong class="auto-style3" style="color: rgb(0, 0, 0); font-family: arial, helvetica, sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">
+Geolocation API</strong><p style="color: rgb(0, 0, 0); font-family: arial, helvetica, sans-serif; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">
+The application will provide the following functionality:</p>
+<ol style="color: rgb(0, 0, 0); font-family: arial, helvetica, sans-serif; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">
+	<ol>
+		<li>it will report the location (lat,lon) of the mobile device,</li>
+		<li>it will compute and report the spherical distance from both the 
+		North and South Pole, and</li>
+		<li>(optional) it will show the location of the device on top of Google 
+		Maps,</li>
+		
+	</ol>
+</ol>
+<p class="auto-style2"></p>
+
+<p class="auto-style2">
+
+<button onclick="getLocation()" style="width: 658px; height: 59px" class="auto-style4">Click me!</button>
+
+</p>
+
+<div id="map" style="width: 907px"></div>
+
+<p id="hii" style="width: 687px"></p>
+
+<script>
+var inst = document.getElementById("hii");
+var map= document.getElementById("map");
+
+
+
+function degTrad(degree){
+		rad = degree*(Math.PI/180);
+		return rad;
+}
+
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else {
+    inst.innerHTML = "Sorry not supported!";
+  }
+}
+
+
+
+function calculateDistanceSouthPole(latitude,longitude){
+	var a = Math.pow(Math.sin((degTrad(-90-latitude))/2),2)+ Math.cos(degTrad(latitude)) * Math.cos(degTrad(90)) * Math.sin((degTrad(0-longitude))/2) * Math.sin((degTrad(0-longitude))/2);
+    var c = 2 * Math.atan2(Math.sqrt(a),Math.sqrt(1-a));
+    var d = Math.round(6371*c,3);
+	return d	
+}
+
+
+
+function calculateDistanceNorthPole(latitude,longitude){
+	var a = Math.pow(Math.sin((degTrad(90-latitude))/2),2)+ Math.cos(degTrad(latitude)) * Math.cos(degTrad(90)) * Math.sin((degTrad(0-longitude))/2) * Math.sin((degTrad(0-longitude))/2);
+    var c = 2 * Math.atan2(Math.sqrt(a),Math.sqrt(1-a));
+    var d = Math.round(6371*c,3);
+	return d	
+}
+
+
+
+function showPosition(position) {
+
+  var latitude= position.coords.latitude;
+  var longitude= position.coords.longitude;
+  inst.innerHTML = "lattitude is: " + position.coords.latitude + 
+  "<br>Longitude is: " + position.coords.longitude+ "<br> Distance from north pole: "+calculateDistanceNorthPole(latitude,longitude)+" km<br>  distance from south pole: "+calculateDistanceSouthPole(latitude,longitude)+" km"; 
+  var src= "https://maps.googleapis.com/maps/api/staticmap?center="+latitude+","+longitude+"&zoom=16&size=800x800&key=AIzaSyAySG1NtPtJESXuMgJQo7WsRHxY-5VDuYk"
+  map.innerHTML = "<img src="+src+">";
+
+}
+
+
+</script>
+</body>
+</html>
