@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+	<name><![CDATA[List of airports in New Brunswick]]></name>
+	<open>1</open>
+	<Folder>
+		<name><![CDATA[List of airports and heliports]]></name>
+		<open>1</open>
+		<Placemark>
+			<name><![CDATA[Bathurst Airport]]></name>
+			<Point>
+				<coordinates>-65.7402777777778,47.6294444444444,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_New_Brunswick#List_of_airports_and_heliports">List of airports in New Brunswick</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Boston Brook Airport]]></name>
+			<Point>
+				<coordinates>-67.6247222222222,47.4483333333333,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_New_Brunswick#List_of_airports_and_heliports">List of airports in New Brunswick</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Brockway Airport]]></name>
+			<Point>
+				<coordinates>-67.1,45.5666666666667,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_New_Brunswick#List_of_airports_and_heliports">List of airports in New Brunswick</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Buctouche Airport]]></name>
+			<Point>
+				<coordinates>-64.6938888888889,46.5094444444444,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_New_Brunswick#List_of_airports_and_heliports">List of airports in New Brunswick</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Charlo Airport]]></name>
+			<Point>
+				<coordinates>-66.3302777777778,47.9908333333333,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_New_Brunswick#List_of_airports_and_heliports">List of airports in New Brunswick</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Chipman Airport]]></name>
+			<Point>
+				<coordinates>-65.9041666666667,46.1486111111111,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_New_Brunswick#List_of_airports_and_heliports">List of airports in New Brunswick</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Clearwater Airport]]></name>
+			<Point>
+				<coordinates>-66.8283333333333,46.7133333333333,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_New_Brunswick#List_of_airports_and_heliports">List of airports in New Brunswick</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Cormier Airport]]></name>
+			<Point>
+				<coordinates>-64.3755555555556,46.1808333333333,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_New_Brunswick#List_of_airports_and_heliports">List of airports in New Brunswick</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Cumberland Bay Water Aerodrome]]></name>
+			<Point>
+				<coordinates>-65.9052777777778,46.0058333333333,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_New_Brunswick#List_of_airports_and_heliports">List of airports in New Brunswick</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Doaktown Airport]]></name>
+			<Point>
+				<coordinates>-66.0938888888889,46.5525,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_New_Brunswick#List_of_airports_and_heliports">List of airports in New Brunswick</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Downs Gulch Aerodrome]]></name>
+			<Point>
+				<coordinates>-67.4266666666667,47.7530555555556,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_New_Brunswick#List_of_airports_and_heliports">List of airports in New Brunswick</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Edmundston Airport]]></name>
+			<Point>
+				<coordinates>-68.4816666666667,47.49,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_New_Brunswick#List_of_airports_and_heliports">List of airports in New Brunswick</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Bristol Airport]]></name>
+			<Point>
+				<coordinates>-67.5647222222222,46.4594444444445,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_New_Brunswick#List_of_airports_and_heliports">List of airports in New Brunswick</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Florenceville Airport]]></name>
+			<Point>
+				<coordinates>-67.6280555555555,46.4261111111111,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_New_Brunswick#List_of_airports_and_heliports">List of airports in New Brunswick</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Fredericton International Airport]]></name>
+			<Point>
+				<coordinates>-66.5372222222222,45.8688888888889,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_New_Brunswick#List_of_airports_and_heliports">List of airports in New Brunswick</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Fredericton (RCMP) Heliport]]></name>
+			<Point>
+				<coordinates>-66.6666666666667,45.9316666666667,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_New_Brunswick#List_of_airports_and_heliports">List of airports in New Brunswick</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Scottsfield Airpark]]></name>
+			<Point>
+				<coordinates>-67.0952777777778,45.9602777777778,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_New_Brunswick#List_of_airports_and_heliports">List of airports in New Brunswick</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Grand Falls Airport]]></name>
+			<Point>
+				<coordinates>-67.685,47.075,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_New_Brunswick#List_of_airports_and_heliports">List of airports in New Brunswick</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Grand Manan Airport]]></name>
+			<Point>
+				<coordinates>-66.7963888888889,44.7133333333333,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_New_Brunswick#List_of_airports_and_heliports">List of airports in New Brunswick</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Havelock Airport]]></name>
+			<Point>
+				<coordinates>-65.3019444444444,45.9863888888889,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_New_Brunswick#List_of_airports_and_heliports">List of airports in New Brunswick</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Juniper Airport]]></name>
+			<Point>
+				<coordinates>-67.1683333333333,46.5627777777778,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_New_Brunswick#List_of_airports_and_heliports">List of airports in New Brunswick</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Kars/Jenkins Cove Water Aerodrome]]></name>
+			<Point>
+				<coordinates>-65.9569444444444,45.5938888888889,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_New_Brunswick#List_of_airports_and_heliports">List of airports in New Brunswick</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Weyman Airpark]]></name>
+			<Point>
+				<coordinates>-66.8588888888889,46.0375,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_New_Brunswick#List_of_airports_and_heliports">List of airports in New Brunswick</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Miramichi Airport]]></name>
+			<Point>
+				<coordinates>-65.4491666666667,47.0077777777778,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_New_Brunswick#List_of_airports_and_heliports">List of airports in New Brunswick</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Greater Moncton International Airport]]></name>
+			<Point>
+				<coordinates>-64.6786111111111,46.1122222222222,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_New_Brunswick#List_of_airports_and_heliports">List of airports in New Brunswick</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Moncton/McEwen Airport]]></name>
+			<Point>
+				<coordinates>-64.7686111111111,46.1538888888889,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_New_Brunswick#List_of_airports_and_heliports">List of airports in New Brunswick</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Moncton/Sailsbury Heliport]]></name>
+			<Point>
+				<coordinates>-65.0625,46.0494444444444,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_New_Brunswick#List_of_airports_and_heliports">List of airports in New Brunswick</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Gagetown Heliport]]></name>
+			<Point>
+				<coordinates>-66.4366666666667,45.8377777777778,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_New_Brunswick#List_of_airports_and_heliports">List of airports in New Brunswick</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Pokemouche Airport]]></name>
+			<Point>
+				<coordinates>-64.8825,47.7163888888889,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_New_Brunswick#List_of_airports_and_heliports">List of airports in New Brunswick</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Saint John Airport]]></name>
+			<Point>
+				<coordinates>-65.8902777777778,45.3158333333333,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_New_Brunswick#List_of_airports_and_heliports">List of airports in New Brunswick</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Saint John (Regional Hospital) Heliport]]></name>
+			<Point>
+				<coordinates>-66.0880555555556,45.3022222222222,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_New_Brunswick#List_of_airports_and_heliports">List of airports in New Brunswick</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Saint-Léonard Aerodrome]]></name>
+			<Point>
+				<coordinates>-67.8347222222222,47.1575,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_New_Brunswick#List_of_airports_and_heliports">List of airports in New Brunswick</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[St. Stephen Airport]]></name>
+			<Point>
+				<coordinates>-67.2505555555556,45.2075,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_New_Brunswick#List_of_airports_and_heliports">List of airports in New Brunswick</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Sevogle Airport]]></name>
+			<Point>
+				<coordinates>-66.15,47.1833333333333,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_New_Brunswick#List_of_airports_and_heliports">List of airports in New Brunswick</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Shediac Bridge Airport]]></name>
+			<Point>
+				<coordinates>-64.5766666666667,46.2547222222222,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_New_Brunswick#List_of_airports_and_heliports">List of airports in New Brunswick</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Sussex Airport]]></name>
+			<Point>
+				<coordinates>-65.5419444444444,45.6863888888889,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_New_Brunswick#List_of_airports_and_heliports">List of airports in New Brunswick</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Upper Kent Aerodrome]]></name>
+			<Point>
+				<coordinates>-67.7191666666667,46.5875,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_New_Brunswick#List_of_airports_and_heliports">List of airports in New Brunswick</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Woodstock Aerodrome]]></name>
+			<Point>
+				<coordinates>-67.55,46.15,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_New_Brunswick#List_of_airports_and_heliports">List of airports in New Brunswick</a>]]></description>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name><![CDATA[Defunct airports]]></name>
+		<open>1</open>
+		<Placemark>
+			<name><![CDATA[Blissville Airport (abandoned)]]></name>
+			<Point>
+				<coordinates>-66.5444444444444,45.6066666666667,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_New_Brunswick#Defunct_airports">List of airports in New Brunswick</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[RCAF Station Pennfield Ridge (abandoned)]]></name>
+			<Point>
+				<coordinates>-66.6944444444444,45.1272222222222,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_New_Brunswick#Defunct_airports">List of airports in New Brunswick</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[RCAF Station Scoudouc (abandoned)]]></name>
+			<Point>
+				<coordinates>-64.5880555555556,46.1702777777778,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_New_Brunswick#Defunct_airports">List of airports in New Brunswick</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Saint-Quentin Aerodrome (defunct)]]></name>
+			<Point>
+				<coordinates>-67.4216666666667,47.5211111111111,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_New_Brunswick#Defunct_airports">List of airports in New Brunswick</a>]]></description>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
