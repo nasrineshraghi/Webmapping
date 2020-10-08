@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+	<name>Mytrip.kml</name>
+	<open>1</open>
+	<Folder>
+		<name>University of New Brunswick</name>
+		<open>1</open>
+		<LookAt>
+			<longitude>-66.64222222</longitude>
+			<latitude>45.94845556</latitude>
+			<altitude>0</altitude>
+			<range>192.2089882256726</range>
+			<tilt>47.6770540588911</tilt>
+			<heading>-11.65093403216848</heading>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<Placemark>
+			<name>University New Brunswick</name>
+			<description><![CDATA[<h2> University of New Brunswick</h2>
+				<img src="./unbbuilding.jpg" width="230" height="172"><br>
+				<a href="http://www.unb.ca">http://www.unb.ca</a>]]></description>
+			<Point>
+				<extrude>1</extrude>
+				<coordinates>-66.64222222,45.94845556,15</coordinates>
+			</Point>
+			
+			<name>Path</name>
+			<LineString>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>
+					-66.64222222,45.94845556,0 -66.64222222,45.94845556,0
+					-69.60944444,47.76285833,0 -69.60944444,47.76285833,0
+				</coordinates>
+			</LineString>
+		</Placemark>
+
+		
+		<name>Municipality of Notre-Dame-du-Portage</name>
+		<open>1</open>
+		<LookAt>
+			<longitude>-69.60944444</longitude>
+			<latitude>47.76285833</latitude>
+			<altitude>0</altitude>
+			<range>192.2089882256726</range>
+			<tilt>47.6770540588911</tilt>
+			<heading>-11.65093403216848</heading>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<Placemark>
+			<name>Municipality of Notre-Dame-du-Portage</name>
+			<description><![CDATA[<h2>Municipality of Notre-Dame-du-Portage</h2>
+				<img src="./man.jpg" width="230" height="172"><br>
+				<a href="http://www.municipalite.notre-dame-du-portage.qc.ca//">http://www.municipalite.notre-dame-du-portage.qc.ca//</a>]]></description>
+			<Point>
+				<extrude>1</extrude>
+				<coordinates>-69.6094,47.7628,15</coordinates>
+			</Point>
+		</Placemark>
+		
+		<Placemark>
+			<name>Path</name>
+			<LineString>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>
+					-69.60944444,47.76285833,0 -69.60944444,47.76285833,0
+					-71.26444444,46.73560278,0 -71.26444444,46.73560278,0
+				</coordinates>
+			</LineString>
+		</Placemark>
+		
+		<name>Quebec ciy</name>
+		<open>1</open>
+		<LookAt>
+			<longitude>-71.26444444</longitude>
+			<latitude>46.73560278</latitude>
+			<altitude>0</altitude>
+			<range>192.2089882256726</range>
+			<tilt>47.6770540588911</tilt>
+			<heading>-11.65093403216848</heading>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<Placemark>
+			<name>Quebec ciy</name>
+			<description><![CDATA[<h2>Quebec ciy</h2>
+				<img src="./qc.jpg" width="230" height="172"><br>
+				<a href="https://www.quebec-cite.com/en/">https://www.quebec-cite.com/en/</a>]]></description>
+			<Point>
+				<extrude>1</extrude>
+				<coordinates>-71.2644,46.7356,15</coordinates>
+			</Point>
+		</Placemark>
+		
+		
+		<Placemark>
+			<name>Path</name>
+			<LineString>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>
+					-71.26444444,46.73560278,0 -71.26444444,46.73560278,0
+					-73.57722222,45.49448333,0 -73.57722222,45.49448333,0
+				</coordinates>
+			</LineString>
+		</Placemark>
+		
+		
+		
+		<name>Concordia University</name>
+		<open>1</open>
+		<LookAt>
+			<longitude>-73.57722222</longitude>
+			<latitude>45.49448333</latitude>
+			<altitude>0</altitude>
+			<range>192.2089882256726</range>
+			<tilt>47.6770540588911</tilt>
+			<heading>-11.65093403216848</heading>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<Placemark>
+			<name>Concordia University</name>
+			<description><![CDATA[<h2>Concordia University</h2>
+				<img src="./concordia.jpg" width="230" height="172"><br>
+				<a href="https://www.concordia.ca/">https://www.concordia.ca/</a>]]></description>
+			<Point>
+				<extrude>1</extrude>
+				<coordinates>-73.5772,45.4944,15</coordinates>
+			</Point>
+		</Placemark>
+		
+		
+		<Placemark>
+			<name>Path</name>
+			<LineString>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>
+					-73.57722222,45.49448333,0 -73.57722222,45.49448333,0
+					-75.70083333,45.42342222,0 -75.70083333,45.42342222,0
+				</coordinates>
+			</LineString>
+		</Placemark>
+		
+		
+		<name>Ottawa parliament</name>
+		<open>1</open>
+		<LookAt>
+			<longitude>-75.70083333</longitude>
+			<latitude>45.42342222</latitude>
+			<altitude>0</altitude>
+			<range>192.2089882256726</range>
+			<tilt>47.6770540588911</tilt>
+			<heading>-11.65093403216848</heading>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<Placemark>
+			<name>Ottawa parliament</name>
+			<description><![CDATA[<h2>Ottawa parliament</h2>
+				<img src="./ottawa.jpg" width="230" height="172"><br>
+				<a href="https://visit.parl.ca/sites/Visit/default/en_CA">https://visit.parl.ca/sites/Visit/default/en_CA</a>]]></description>
+			<Point>
+				<extrude>1</extrude>
+				<coordinates>-75.7008,45.4234,15</coordinates>
+			</Point>
+		</Placemark>
+		
+		
+		
+		<Folder>
+			<name>Movement along the path</name>
+			<open>1</open>
+			<Style id="car_img">
+				<IconStyle>	
+					<scale>1.2</scale>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/cabs.png</href>
+					</Icon>
+				</IconStyle>
+			</Style>
+			<Placemark>
+				<TimeSpan>
+  					<begin>2020-01-01T07:59:30Z</begin> 
+  					<end>2020-01-01T08:00:00Z</end>    
+				</TimeSpan>
+				<styleUrl>#car_img</styleUrl>
+	      			<Point><coordinates>-66.64222222,45.94845556,0</coordinates></Point>
+  			</Placemark>	
+			<Placemark>
+				<TimeStamp>
+					<when>2020-01-01T08:00:10Z</when>
+				</TimeStamp>
+				<styleUrl>#car_img</styleUrl>
+	      			<Point><coordinates>-69.60944444,47.76285833,0</coordinates></Point>
+  			</Placemark>
+			<Placemark>
+				<TimeStamp>
+					<when>2020-01-01T08:00:20Z</when>
+				</TimeStamp>
+				<styleUrl>#car_img</styleUrl>
+	      			<Point><coordinates>-71.26444444,46.73560278,0</coordinates></Point>
+  			</Placemark>
+			<Placemark>
+				<TimeStamp>
+					<when>2020-01-01T08:00:30Z</when>
+				</TimeStamp>
+				<styleUrl>#car_img</styleUrl>
+	      			<Point><coordinates>-73.57722222,45.49448333,0</coordinates></Point>
+  			</Placemark>
+			<Placemark>
+				<TimeSpan>
+  					<begin>2020-01-01T08:00:40Z</begin>  
+  					<end>2020-01-01T08:01:10Z</end>    
+				</TimeSpan>
+				<styleUrl>#car_img</styleUrl>
+	      			<Point><coordinates>-75.70083333,45.42342222,0</coordinates></Point>
+  			</Placemark>
+		</Folder>
+		
+	</Folder>
+</Document>
+</kml>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" version="1.1">
+
+<!--Insert an image as background-->
+<image width="729px" height="526px" xlink:href="./unb.jpg">
+</image>
+
+<!--Define the canvas-->
+<rect x="0" y="0" width="729" height="526" style="fill:rgb(150,255,150);stroke:green;stroke-width:3; fill-opacity:0.3;stroke-opacity:1"/>
+
+<!--Draw the fence-->
+<rect x="200" y="200" width="500" height="300" style="fill:green;fill-opacity:0.4;stroke:rgb(50,50,50);stroke-width:6;"/>
+
+<!--Draw BMO-->
+<a xlink:href="./bmo.jpg">
+<polygon points="  580,428, 580,319, 528,319, 528,428" style="fill:blue;stroke:blue;stroke-width:3;"/>
+</a>
+
+<!--Draw SUB-->
+<a xlink:href="./sub.jpg">
+<ellipse cx="303" cy="270" rx="30" ry="30" style="fill:cyan;stroke:green;stroke-width:2;"/>
+</a>
+
+<!--Draw the path-->
+<polyline points="455,470  327,260" style="fill-opacity:0;stroke:rgb(200,200,200);stroke-width:4;"/>
+
+<!--Create an moving image along a path-->
+<g transform="translate(-25,-25)">
+<image width="50px" height="50px" xlink:href="./hu.gif">
+
+<animateMotion path="M 455 470 L 327 260 " dur="7s" repeatCount="indefinite"/> 
+</image>
+</g>
+
+
+<!--Type the Title and create a hyperlink-->
+<a xlink:href="http://www.unb.ca">
+<text id="TextElement" x="365" y="40" style="text-anchor:middle;font-family:Arial;font-weight:bold;font-size:36;fill:green;stroke:blue">
+UNIVERSITY OF NEW BRUNSWICK
+</text>
+</a>
+
+
+
+<!--Draw the guidline-->
+<rect x="0" y="396" width="150" height="100" style="fill:white;stroke:blue;stroke-width:3; fill-opacity:0.8;stroke-opacity:0.5"/>
+<rect x="0" y="420" width="25" height="25" style="fill:red;stroke:blue;stroke-width:1"/>
+<rect x="0" y="450" width="25" height="25" style="fill:yellow;stroke:blue;stroke-width:1"/>
+
+<!--Text in the guidline-->
+<text id="TextElement" x="30" y="390" style="font-family:Arial;font-size:22;fill:green">
+Guidline
+</text>
+<text id="TextElement" x="50" y="440" style="font-family:blue;font-size:14">
+BOM Field
+</text>
+<text id="TextElement" x="50" y="470" style="font-family:cyan;font-size:14">
+SUB View
+</text>
+
+</svg>
